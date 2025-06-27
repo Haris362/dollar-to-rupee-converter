@@ -8,11 +8,14 @@
       font-family: 'Segoe UI', sans-serif;
       background: linear-gradient(135deg, #667eea, #764ba2);
       display: flex;
+      flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
       height: 100vh;
     }
-
+    .heading{
+      color: whitesmoke;
+    }
     .container {
       background-color: #ffffff;
       padding: 30px 25px;
@@ -22,6 +25,7 @@
       width: 90%;
       max-width: 400px;
       transition: all 0.3s ease;
+      margin-bottom: 40px;
     }
 
     .container h2 {
